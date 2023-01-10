@@ -1,0 +1,50 @@
+form{
+    width: 70%;
+}
+    form div input{
+        margin-left: 50px;
+        height: 30px;
+        width: 200px;
+        border: 1px solid #d1d1d1;
+        border-radius: 3px;
+    }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+form div input::placeholder{
+    padding-left: 10px;
+}
+form .flat input{
+    margin-left: 200px;
+}
+form div input:first-child{
+    margin-left: 0px;
+}
+form div input[type=submit]{
+    background-color: transparent;
+    border: none;
+    width: 20px;
+    font-size: 30px;
+    color: blue;
+    padding: 0px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+form div input[type=submit]:hover{
+    color: rgb(74, 74, 255);
+}
+input:hover {
+    box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.07);
+}
+input:hover[type=submit] {
+    box-shadow: none;
+}
+input:focus {
+    color: #4b515d;
+    border: 1px solid #B8B6B6;
+    outline: none;
+    box-shadow: inset 1px 2px 4px rgba(0, 0, 0, 0.01), 0px 0px 8px rgba(0, 0, 0, 0.2);
+}
